@@ -28,7 +28,9 @@ cp .env.local.example .env.local
 
 https://firebase.google.com/docs/web/setup?hl=ja
 
-2. firebaseConfigやvapidKey等を.env.localに記載してください。
+2. AuthenticationでSign-in methodにGooleを追加してください
+
+3. firebaseConfigやvapidKey等を.env.localに記載してください。
 
 * firebaseConfigはどこに表示されている？
 
@@ -40,18 +42,13 @@ https://firebase.google.com/docs/web/setup?hl=ja
 
 https://firebase.google.com/docs/cloud-messaging/js/client?hl=ja
 
-3. AuthenticationでSign-in methodにGooleを追加してください
-
-https://console.firebase.google.com/project/<your-project-id>/authentication/providers?hl=ja
+4. .firebasercのprojects.defaultに1で作成したプロジェクトのIDを記載します。
 
 ## run local server
 
 ```bash
 npm run local
-```
-
-## deploy
-
-```bash
-npm run deploy:local
+.
+.
+Local server: http://localhost:5002
 ```

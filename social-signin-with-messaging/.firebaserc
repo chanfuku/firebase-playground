@@ -1,6 +1,6 @@
 {
   "projects": {
-    "local": "push-notification-91414"
+    "default": "push-notification-91414"
   },
   "targets": {},
   "etags": {}
