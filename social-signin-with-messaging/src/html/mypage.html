@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ソーシャルログイン</title>
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div class="content">
+    <h1 id="title"></h1>
+    <div class="title flex-justify-between">
+      <h1 id="top-message"></h1>
+      <button class="btn btn-logout" id="logout">ログアウト</button>
+    </div>
+    <h2>メールアドレス</h2>
+    <div class="currentEmail">
+      <span>現在のメールアドレス</span>
+      <span id="currentEmail"></span>
+    </div>
+    <div class="currentEmail">
+      <div class="flex-justify-between">
+        <h2>deviceToken</h2>
+        <button class="btn" id="copyDeviceToken">deviceTokenをクリップボードにコピーする</button>
+      </div>
+      <span id="currentDeviceToken"></span>
+    </div>
+    <div class="currentEmail">
+      <div class="flex-justify-between">
+        <h2>idToken</h2>
+        <button class="btn" id="copyIdToken">idTokenをクリップボードにコピーする</button>
+      </div>
+      <span id="currentIdToken"></span>
+    </div>
+  </div>
+  <script src="mypage.js"></script>
+</body>
+
+</html>
