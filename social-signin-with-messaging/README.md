@@ -8,11 +8,12 @@ Firebase AuthenticationとCloud Messagingを使い、
 
 - Web Push通知
 
-が出来ます。
+で動くはず。
 
 ## install
 
 ```bash
+npm install -g firebase-tools
 npm install
 ```
 
@@ -52,3 +53,4 @@ npm run local
 .
 Local server: http://localhost:5002
 ```
+
